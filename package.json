@@ -1,0 +1,25 @@
+{
+  "name": "metashell-visual",
+  "version": "0.0.0",
+  "description": "A visual shell implementing the metashell protocol",
+  "main": "npm start",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabiosantoscode/metashell-visual.git"
+  },
+  "keywords": [
+    "metashell",
+    "visual",
+    "graphic",
+    "shell"
+  ],
+  "author": "Fábio Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiosantoscode/metashell-visual/issues"
+  },
+  "homepage": "https://github.com/fabiosantoscode/metashell-visual"
+}
