@@ -1,28 +1,23 @@
 {
   "name": "metashell-visual",
   "version": "0.0.0",
-  "description": "A visual shell implementing the metashell protocol",
-  "main": "index.html",
+  "description": "A visual shell using metashell",
+  "main": "bin/metashell-visual",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/metashell-visual"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/fabiosantoscode/metashell-visual.git"
   },
-  "keywords": [
-    "metashell",
-    "visual",
-    "graphic",
-    "shell"
-  ],
-  "author": "Fábio Santos",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/fabiosantoscode/metashell-visual/issues"
   },
   "homepage": "https://github.com/fabiosantoscode/metashell-visual",
   "dependencies": {
-    "nodewebkit": "~0.8.2-1"
+    "exterminate": "~1.4.1"
   }
 }
