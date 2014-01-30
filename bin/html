@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var html = require('../lib/html')
+
+process.stdout.write(html(process.argv.slice(1).join(' ')))
+
